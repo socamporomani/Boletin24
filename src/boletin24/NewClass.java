@@ -105,7 +105,7 @@ if (e.getSource()==btnL){
 }
 else if (e.getSource()==btn0){
             area.setText("");
-texto=textboxN.getText()+"\n"+lista.getSelectedValue()+"\n"+texto;
+texto=textboxN.getText()+"\n"+lista.getSelectedValue();
         area.setText(texto);
     }
 }
